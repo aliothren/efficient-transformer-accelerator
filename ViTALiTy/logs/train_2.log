@@ -1,0 +1,118 @@
+W1021 02:05:54.718000 127794672132224 torch/distributed/run.py:779] 
+W1021 02:05:54.718000 127794672132224 torch/distributed/run.py:779] *****************************************
+W1021 02:05:54.718000 127794672132224 torch/distributed/run.py:779] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W1021 02:05:54.718000 127794672132224 torch/distributed/run.py:779] *****************************************
+/home/yuxinr/AttnDistill/env/lib/python3.12/site-packages/timm/models/registry.py:4: FutureWarning: Importing from timm.models.registry is deprecated, please import via timm.models
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.models", FutureWarning)
+/home/yuxinr/AttnDistill/env/lib/python3.12/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+/home/yuxinr/ECE562/workspace/ViTALiTy/src/models.py:61: UserWarning: Overwriting deit_tiny_patch16_224 in registry with models.deit_tiny_patch16_224. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  @register_model
+/home/yuxinr/ECE562/workspace/ViTALiTy/src/models.py:76: UserWarning: Overwriting deit_small_patch16_224 in registry with models.deit_small_patch16_224. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  @register_model
+/home/yuxinr/ECE562/workspace/ViTALiTy/src/models.py:91: UserWarning: Overwriting deit_base_patch16_224 in registry with models.deit_base_patch16_224. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  @register_model
+/home/yuxinr/ECE562/workspace/ViTALiTy/src/models.py:106: UserWarning: Overwriting deit_tiny_distilled_patch16_224 in registry with models.deit_tiny_distilled_patch16_224. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  @register_model
+/home/yuxinr/ECE562/workspace/ViTALiTy/src/models.py:121: UserWarning: Overwriting deit_small_distilled_patch16_224 in registry with models.deit_small_distilled_patch16_224. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  @register_model
+/home/yuxinr/ECE562/workspace/ViTALiTy/src/models.py:136: UserWarning: Overwriting deit_base_distilled_patch16_224 in registry with models.deit_base_distilled_patch16_224. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  @register_model
+/home/yuxinr/ECE562/workspace/ViTALiTy/src/models.py:151: UserWarning: Overwriting deit_base_patch16_384 in registry with models.deit_base_patch16_384. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  @register_model
+/home/yuxinr/ECE562/workspace/ViTALiTy/src/models.py:166: UserWarning: Overwriting deit_base_distilled_patch16_384 in registry with models.deit_base_distilled_patch16_384. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  @register_model
+/home/yuxinr/AttnDistill/env/lib/python3.12/site-packages/timm/models/registry.py:4: FutureWarning: Importing from timm.models.registry is deprecated, please import via timm.models
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.models", FutureWarning)
+/home/yuxinr/AttnDistill/env/lib/python3.12/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+/home/yuxinr/ECE562/workspace/ViTALiTy/src/models.py:61: UserWarning: Overwriting deit_tiny_patch16_224 in registry with models.deit_tiny_patch16_224. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  @register_model
+/home/yuxinr/ECE562/workspace/ViTALiTy/src/models.py:76: UserWarning: Overwriting deit_small_patch16_224 in registry with models.deit_small_patch16_224. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  @register_model
+/home/yuxinr/ECE562/workspace/ViTALiTy/src/models.py:91: UserWarning: Overwriting deit_base_patch16_224 in registry with models.deit_base_patch16_224. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  @register_model
+/home/yuxinr/ECE562/workspace/ViTALiTy/src/models.py:106: UserWarning: Overwriting deit_tiny_distilled_patch16_224 in registry with models.deit_tiny_distilled_patch16_224. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  @register_model
+/home/yuxinr/ECE562/workspace/ViTALiTy/src/models.py:121: UserWarning: Overwriting deit_small_distilled_patch16_224 in registry with models.deit_small_distilled_patch16_224. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  @register_model
+/home/yuxinr/ECE562/workspace/ViTALiTy/src/models.py:136: UserWarning: Overwriting deit_base_distilled_patch16_224 in registry with models.deit_base_distilled_patch16_224. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  @register_model
+/home/yuxinr/ECE562/workspace/ViTALiTy/src/models.py:151: UserWarning: Overwriting deit_base_patch16_384 in registry with models.deit_base_patch16_384. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  @register_model
+/home/yuxinr/ECE562/workspace/ViTALiTy/src/models.py:166: UserWarning: Overwriting deit_base_distilled_patch16_384 in registry with models.deit_base_distilled_patch16_384. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  @register_model
+| distributed init (rank 0): env://
+| distributed init (rank 1): env://
+Namespace(batch_size=512, epochs=300, model='deit_tiny_patch16_224', input_size=224, drop=0.0, drop_path=0.1, model_ema=True, model_ema_decay=0.99996, model_ema_force_cpu=False, opt='adamw', opt_eps=1e-08, opt_betas=None, clip_grad=None, momentum=0.9, weight_decay=0.05, sched='cosine', lr=5e-05, lr_noise=None, lr_noise_pct=0.67, lr_noise_std=1.0, warmup_lr=1e-06, min_lr=1e-05, decay_epochs=30, warmup_epochs=5, cooldown_epochs=10, patience_epochs=10, decay_rate=0.1, color_jitter=0.4, aa='rand-m9-mstd0.5-inc1', smoothing=0.1, train_interpolation='bicubic', repeated_aug=True, reprob=0.25, remode='pixel', recount=1, resplit=False, mixup=0.8, cutmix=1.0, cutmix_minmax=None, mixup_prob=1.0, mixup_switch_prob=0.5, mixup_mode='batch', teacher_model='regnety_160', teacher_path='', distillation_type='none', distillation_alpha=0.5, distillation_tau=1.0, finetune='', data_path='/srv/datasets/imagenet/', data_set='IMNET', inat_category='name', output_dir='/home/yuxinr/ECE562/workspace/models/vitality_degree2_train.pth', device='cuda', seed=0, resume='', start_epoch=0, eval=False, dist_eval=False, num_workers=4, pin_mem=True, world_size=2, dist_url='env://', finetune_layer=False, layer_lr=0.001, vitality=True, degree=2, rank=0, gpu=0, distributed=True, dist_backend='nccl')
+Creating model: deit_tiny_patch16_224
+number of params: 5717416
+Start training for 300 epochs
+Epoch: [0]  [   0/1251]  eta: 3:37:18  lr: 0.000001  loss: 6.9542 (6.9542)  time: 10.4223  data: 5.2087  max mem: 34959
+Epoch: [0]  [  10/1251]  eta: 0:54:44  lr: 0.000001  loss: 6.9457 (6.9407)  time: 2.6467  data: 0.4757  max mem: 36815
+Epoch: [0]  [  20/1251]  eta: 0:46:43  lr: 0.000001  loss: 6.9456 (6.9416)  time: 1.8706  data: 0.0022  max mem: 36815
+Epoch: [0]  [  30/1251]  eta: 0:43:37  lr: 0.000001  loss: 6.9436 (6.9417)  time: 1.8677  data: 0.0023  max mem: 36815
+Epoch: [0]  [  40/1251]  eta: 0:41:55  lr: 0.000001  loss: 6.9442 (6.9428)  time: 1.8658  data: 0.0022  max mem: 36815
+Epoch: [0]  [  50/1251]  eta: 0:40:47  lr: 0.000001  loss: 6.9403 (6.9426)  time: 1.8725  data: 0.0019  max mem: 36815
+Epoch: [0]  [  60/1251]  eta: 0:39:54  lr: 0.000001  loss: 6.9357 (6.9419)  time: 1.8741  data: 0.0019  max mem: 36815
+Epoch: [0]  [  70/1251]  eta: 0:39:09  lr: 0.000001  loss: 6.9359 (6.9416)  time: 1.8674  data: 0.0026  max mem: 36815
+Epoch: [0]  [  80/1251]  eta: 0:38:32  lr: 0.000001  loss: 6.9384 (6.9412)  time: 1.8665  data: 0.0030  max mem: 36815
+Epoch: [0]  [  90/1251]  eta: 0:37:59  lr: 0.000001  loss: 6.9402 (6.9412)  time: 1.8697  data: 0.0028  max mem: 36815
+Epoch: [0]  [ 100/1251]  eta: 0:37:28  lr: 0.000001  loss: 6.9402 (6.9413)  time: 1.8692  data: 0.0026  max mem: 36815
+Epoch: [0]  [ 110/1251]  eta: 0:37:00  lr: 0.000001  loss: 6.9409 (6.9411)  time: 1.8697  data: 0.0021  max mem: 36815
+Epoch: [0]  [ 120/1251]  eta: 0:36:34  lr: 0.000001  loss: 6.9409 (6.9409)  time: 1.8712  data: 0.0022  max mem: 36815
+Epoch: [0]  [ 130/1251]  eta: 0:36:09  lr: 0.000001  loss: 6.9415 (6.9412)  time: 1.8746  data: 0.0029  max mem: 36815
+Epoch: [0]  [ 140/1251]  eta: 0:35:44  lr: 0.000001  loss: 6.9418 (6.9409)  time: 1.8690  data: 0.0033  max mem: 36815
+Epoch: [0]  [ 150/1251]  eta: 0:35:19  lr: 0.000001  loss: 6.9342 (6.9404)  time: 1.8549  data: 0.0041  max mem: 36815
+Epoch: [0]  [ 160/1251]  eta: 0:34:55  lr: 0.000001  loss: 6.9342 (6.9401)  time: 1.8530  data: 0.0044  max mem: 36815
+Epoch: [0]  [ 170/1251]  eta: 0:34:32  lr: 0.000001  loss: 6.9377 (6.9402)  time: 1.8604  data: 0.0036  max mem: 36815
+Epoch: [0]  [ 180/1251]  eta: 0:34:10  lr: 0.000001  loss: 6.9413 (6.9401)  time: 1.8656  data: 0.0031  max mem: 36815
+Epoch: [0]  [ 190/1251]  eta: 0:33:48  lr: 0.000001  loss: 6.9413 (6.9402)  time: 1.8668  data: 0.0030  max mem: 36815
+Epoch: [0]  [ 200/1251]  eta: 0:33:27  lr: 0.000001  loss: 6.9418 (6.9399)  time: 1.8695  data: 0.0025  max mem: 36815
+Epoch: [0]  [ 210/1251]  eta: 0:33:06  lr: 0.000001  loss: 6.9342 (6.9397)  time: 1.8743  data: 0.0025  max mem: 36815
+Epoch: [0]  [ 220/1251]  eta: 0:32:45  lr: 0.000001  loss: 6.9360 (6.9395)  time: 1.8707  data: 0.0032  max mem: 36815
+Epoch: [0]  [ 230/1251]  eta: 0:32:25  lr: 0.000001  loss: 6.9384 (6.9394)  time: 1.8698  data: 0.0021  max mem: 36815
+Epoch: [0]  [ 240/1251]  eta: 0:32:04  lr: 0.000001  loss: 6.9361 (6.9393)  time: 1.8724  data: 0.0019  max mem: 36815
+Epoch: [0]  [ 250/1251]  eta: 0:31:44  lr: 0.000001  loss: 6.9322 (6.9391)  time: 1.8728  data: 0.0032  max mem: 36815
+Epoch: [0]  [ 260/1251]  eta: 0:31:24  lr: 0.000001  loss: 6.9322 (6.9388)  time: 1.8718  data: 0.0033  max mem: 36815
+Epoch: [0]  [ 270/1251]  eta: 0:31:04  lr: 0.000001  loss: 6.9332 (6.9385)  time: 1.8714  data: 0.0032  max mem: 36815
+Epoch: [0]  [ 280/1251]  eta: 0:30:43  lr: 0.000001  loss: 6.9369 (6.9386)  time: 1.8689  data: 0.0027  max mem: 36815
+Epoch: [0]  [ 290/1251]  eta: 0:30:16  lr: 0.000001  loss: 6.9373 (6.9385)  time: 1.7529  data: 0.0028  max mem: 36815
+Epoch: [0]  [ 300/1251]  eta: 0:29:58  lr: 0.000001  loss: 6.9346 (6.9382)  time: 1.7800  data: 0.0038  max mem: 36815
+Epoch: [0]  [ 310/1251]  eta: 0:29:33  lr: 0.000001  loss: 6.9304 (6.9381)  time: 1.8103  data: 0.0035  max mem: 36815
+Epoch: [0]  [ 320/1251]  eta: 0:29:16  lr: 0.000001  loss: 6.9338 (6.9380)  time: 1.8148  data: 0.0029  max mem: 36815
+Epoch: [0]  [ 330/1251]  eta: 0:28:58  lr: 0.000001  loss: 6.9338 (6.9379)  time: 1.9281  data: 0.0035  max mem: 36815
+Epoch: [0]  [ 340/1251]  eta: 0:28:35  lr: 0.000001  loss: 6.9320 (6.9378)  time: 1.8265  data: 0.0038  max mem: 36815
+Epoch: [0]  [ 350/1251]  eta: 0:28:16  lr: 0.000001  loss: 6.9268 (6.9373)  time: 1.7976  data: 0.0038  max mem: 36815
+Epoch: [0]  [ 360/1251]  eta: 0:27:56  lr: 0.000001  loss: 6.9242 (6.9371)  time: 1.8664  data: 0.0037  max mem: 36815
+Epoch: [0]  [ 370/1251]  eta: 0:27:37  lr: 0.000001  loss: 6.9342 (6.9371)  time: 1.8609  data: 0.0033  max mem: 36815
+Epoch: [0]  [ 380/1251]  eta: 0:27:18  lr: 0.000001  loss: 6.9334 (6.9369)  time: 1.8616  data: 0.0028  max mem: 36815
+Epoch: [0]  [ 390/1251]  eta: 0:26:59  lr: 0.000001  loss: 6.9292 (6.9366)  time: 1.8644  data: 0.0032  max mem: 36815
+Epoch: [0]  [ 400/1251]  eta: 0:26:39  lr: 0.000001  loss: 6.9293 (6.9366)  time: 1.8672  data: 0.0035  max mem: 36815
+Epoch: [0]  [ 410/1251]  eta: 0:26:20  lr: 0.000001  loss: 6.9254 (6.9363)  time: 1.8626  data: 0.0034  max mem: 36815
+Epoch: [0]  [ 420/1251]  eta: 0:26:01  lr: 0.000001  loss: 6.9253 (6.9362)  time: 1.8643  data: 0.0034  max mem: 36815
+Epoch: [0]  [ 430/1251]  eta: 0:25:42  lr: 0.000001  loss: 6.9249 (6.9359)  time: 1.8704  data: 0.0030  max mem: 36815
+Epoch: [0]  [ 440/1251]  eta: 0:25:23  lr: 0.000001  loss: 6.9263 (6.9358)  time: 1.8708  data: 0.0027  max mem: 36815
+Epoch: [0]  [ 450/1251]  eta: 0:25:04  lr: 0.000001  loss: 6.9277 (6.9357)  time: 1.8711  data: 0.0025  max mem: 36815
+Epoch: [0]  [ 460/1251]  eta: 0:24:45  lr: 0.000001  loss: 6.9250 (6.9355)  time: 1.8701  data: 0.0032  max mem: 36815
+Epoch: [0]  [ 470/1251]  eta: 0:24:26  lr: 0.000001  loss: 6.9238 (6.9353)  time: 1.8693  data: 0.0035  max mem: 36815
+Epoch: [0]  [ 480/1251]  eta: 0:24:08  lr: 0.000001  loss: 6.9273 (6.9352)  time: 1.8674  data: 0.0026  max mem: 36815
+Epoch: [0]  [ 490/1251]  eta: 0:23:49  lr: 0.000001  loss: 6.9291 (6.9350)  time: 1.8684  data: 0.0022  max mem: 36815
+Epoch: [0]  [ 500/1251]  eta: 0:23:30  lr: 0.000001  loss: 6.9282 (6.9348)  time: 1.8677  data: 0.0019  max mem: 36815
+Epoch: [0]  [ 510/1251]  eta: 0:23:11  lr: 0.000001  loss: 6.9303 (6.9348)  time: 1.8708  data: 0.0022  max mem: 36815
+Epoch: [0]  [ 520/1251]  eta: 0:22:52  lr: 0.000001  loss: 6.9284 (6.9346)  time: 1.8737  data: 0.0027  max mem: 36815
+Epoch: [0]  [ 530/1251]  eta: 0:22:33  lr: 0.000001  loss: 6.9270 (6.9345)  time: 1.8707  data: 0.0023  max mem: 36815
+Epoch: [0]  [ 540/1251]  eta: 0:22:14  lr: 0.000001  loss: 6.9291 (6.9345)  time: 1.8690  data: 0.0024  max mem: 36815
+Epoch: [0]  [ 550/1251]  eta: 0:21:55  lr: 0.000001  loss: 6.9297 (6.9344)  time: 1.8643  data: 0.0028  max mem: 36815
+Epoch: [0]  [ 560/1251]  eta: 0:21:36  lr: 0.000001  loss: 6.9248 (6.9342)  time: 1.8634  data: 0.0030  max mem: 36815
+Epoch: [0]  [ 570/1251]  eta: 0:21:17  lr: 0.000001  loss: 6.9245 (6.9341)  time: 1.8640  data: 0.0035  max mem: 36815
+Epoch: [0]  [ 580/1251]  eta: 0:20:59  lr: 0.000001  loss: 6.9222 (6.9339)  time: 1.8659  data: 0.0033  max mem: 36815
+Epoch: [0]  [ 590/1251]  eta: 0:20:40  lr: 0.000001  loss: 6.9231 (6.9338)  time: 1.8719  data: 0.0031  max mem: 36815
+Epoch: [0]  [ 600/1251]  eta: 0:20:21  lr: 0.000001  loss: 6.9286 (6.9337)  time: 1.8697  data: 0.0031  max mem: 36815
+Epoch: [0]  [ 610/1251]  eta: 0:20:02  lr: 0.000001  loss: 6.9252 (6.9336)  time: 1.8669  data: 0.0028  max mem: 36815
+Epoch: [0]  [ 620/1251]  eta: 0:19:43  lr: 0.000001  loss: 6.9216 (6.9333)  time: 1.8673  data: 0.0029  max mem: 36815
+Epoch: [0]  [ 630/1251]  eta: 0:19:24  lr: 0.000001  loss: 6.9217 (6.9332)  time: 1.8677  data: 0.0033  max mem: 36815
+Epoch: [0]  [ 640/1251]  eta: 0:19:05  lr: 0.000001  loss: 6.9241 (6.9331)  time: 1.8656  data: 0.0034  max mem: 36815
+Epoch: [0]  [ 650/1251]  eta: 0:18:47  lr: 0.000001  loss: 6.9264 (6.9330)  time: 1.8678  data: 0.0033  max mem: 36815
+Epoch: [0]  [ 660/1251]  eta: 0:18:28  lr: 0.000001  loss: 6.9265 (6.9329)  time: 1.8665  data: 0.0027  max mem: 36815
+Epoch: [0]  [ 670/1251]  eta: 0:18:09  lr: 0.000001  loss: 6.9281 (6.9328)  time: 1.8618  data: 0.0027  max mem: 36815
